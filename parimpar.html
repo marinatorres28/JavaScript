@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par e Impar</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+
+<body>
+    <div class="row-centrado col-6 caja">
+        <h2 class="row">¿Es par o impar?</h2>
+        <!-- nombre -->
+        <div class="col-12 row">
+            <div class="col-5 row">
+                <label for="numero">Indica un número:</label>
+            </div>
+
+            <div class="col-6">
+                <input type="number" id="numero" name="numero" class="col-8">
+            </div>
+        </div>
+        <!-- boton -->
+        <div class="row">
+            <button class="boton">Enviar</button>
+        </div>
+
+        <!-- mensaje error -->
+        <div class="mensajeError row">
+
+        </div>
+    </div>
+
+    <!-- mensaje -->
+    <div class="mensaje">
+        <p class="mensaje"></p>
+    </div>
+
+    <script src="script/parimpar.js"></script>
+</body>
+</html>

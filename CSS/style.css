@@ -1,0 +1,70 @@
+.cuadrado{
+    width: 50px;
+    height: 50px;
+    background-color: #7fffd4;
+}
+
+body{
+    background-color: #009fa5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    line-height: 25px;
+    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.row-centrado{
+    margin: auto;
+}
+
+/* Formulario */
+.caja{
+    background-color: rgb(245, 245, 245);
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+
+h2{
+    font-size: 20px;
+}
+
+.mensajeError{
+    color: darkred;
+}
+
+.boton{
+    background-color: #009fa5;
+    color: rgb(245, 245, 245);
+    border: 0;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+    width: 15%;
+    text-align: center;    
+}
+
+.boton:hover{
+    background-color: #272727;
+    color: rgb(245, 245, 245);
+}
+
+.nombre,.edad{
+    text-align: right;
+}
+
+.centrado{
+    text-align: center;
+}
+
+
+
+
+

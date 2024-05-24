@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor o menor</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+
+<body>
+    <div class="row-centrado col-6 caja">
+        <h2 class="row">Ingrese los siguientes datos:</h2>
+
+        <!-- PERSONA 1 -->
+        <fieldset class="col-10 row-centrado">
+            <legend>Persona #1</legend>
+            <!-- nombre1 -->
+            <div class="row">
+                <div class="col-6 row">
+                    <label for="nombre1">Nombre:</label>
+                </div>
+                <div class="col-6 ">
+                    <input type="text" id="nombre1" name="nombre1" class="col-8">
+                </div>
+            </div>
+            <!-- edad1 -->
+            <div class="row">
+                <div class="col-6 row">
+                    <label for="edad1">Edad:</label>
+                </div>
+
+                <div class="col-6">
+                    <input type="number" id="edad1" name="edad1" class="col-8">
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- PERSONA 2 -->
+        <fieldset class="col-10 row-centrado">
+            <legend>Persona #2</legend>
+            <!-- nombre2 -->
+            <div class="row">
+                <div class="col-6 row">
+                    <label for="nombre2">Nombre:</label>
+                </div>
+                <div class="col-6 ">
+                    <input type="text" id="nombre2" name="nombre2" class="col-8">
+                </div>
+            </div>
+            <!-- edad2 -->
+            <div class="row">
+                <div class="col-6 row">
+                    <label for="edad2">Edad:</label>
+                </div>
+
+                <div class="col-6">
+                    <input type="number" id="edad2" name="edad2" class="col-8">
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- PERSONA 3 -->
+        <fieldset class="col-10 row-centrado">
+            <legend>Persona #3</legend>
+            <!-- nombre3 -->
+            <div class="row">
+                <div class="col-6 row">
+                    <label for="nombre3">Nombre:</label>
+                </div>
+                <div class="col-6 ">
+                    <input type="text" id="nombre3" name="nombre3" class="col-8">
+                </div>
+            </div>
+            <!-- edad3 -->
+            <div class="row">
+                <div class="col-6 row">
+                    <label for="edad3">Edad:</label>
+                </div>
+
+                <div class="col-6">
+                    <input type="number" id="edad3" name="edad3" class="col-8">
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- boton -->
+        <div class="row">
+            <button class="boton">Enviar</button>
+        </div>
+
+        <!-- mensaje error -->
+        <div class="mensajeError row">
+        </div>
+
+        <!-- mensaje -->
+        <div class="mensaje row">
+            <p class="mensaje"></p>
+        </div>
+
+    </div>
+
+
+
+    <script src="script/mayormenor.js"></script>
+</body>
+
+</html>
